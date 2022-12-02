@@ -12,18 +12,18 @@ int b = int.Parse(Console.ReadLine()!);
 if (a > b)
 
 {
-    Console.Write("a =" + " " + a + ";" + " " + "b =" + " " + b + " -> " + "max = " );
+    Console.Write("a =" + " " + a + ";" + " " + "b =" + " " + b + " -> " + "max = ");
     Console.WriteLine(a);
 }
 if (a < b)
 
 {
-    Console.Write("a =" + " " + a + ";" + " " + "b =" + " " + b + " -> " + "max = " );
+    Console.Write("a =" + " " + a + ";" + " " + "b =" + " " + b + " -> " + "max = ");
     Console.WriteLine(b);
 }
 
 if (a == b)
 
 {
-Console.Write("a =" + " " + a + ";" + " " + "b =" + " " + b + " -> " + "Числа равны");   
+    Console.Write("a =" + " " + a + ";" + " " + "b =" + " " + b + " -> " + "Числа равны");
 }
